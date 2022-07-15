@@ -1,0 +1,23 @@
+.b-icon{
+    background-color: rgb(224, 233, 240);
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.btr5{
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+
+.b-gray{
+    border: 1px solid rgb(218, 218, 218);
+}
+
+.br{
+    border-radius: var(--radius);
+}
+
+.not-b{
+    border: none;
+}

@@ -1,0 +1,80 @@
+.text-white {
+    color: #ffffff;
+}
+
+.text-black {
+    color: #000000;
+}
+
+.text-dgray {
+    color: rgb(51, 51, 51);
+}
+
+.text-gray{
+    color: rgb(149, 146, 156);
+}
+
+.text-red{
+    color: rgb(198, 50, 79);
+}
+
+.text-badam{
+    color: rgb(108, 13, 31);
+}
+
+.text-cyan {
+    color: rgb(38, 144, 212);
+}
+
+.text-green{
+    color: rgb(90, 165, 53);
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.bg-dgray {
+    background-color: rgb(51, 51, 51);
+}
+
+.bg-cyan {
+    background-color: rgb(38, 144, 212);
+}
+
+.bg-green{
+    background-color: rgb(90, 165, 53);
+}
+
+.bg-red{
+    background-color: rgb(214, 41, 72);
+}
+
+.bg-div01{
+    background-color: rgb(254, 252, 253);
+}
+
+.bg-div02{
+    background-color: rgb(250, 248, 249);
+}
+
+.bg-shadow {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+.box-shadow{
+    box-shadow: 0 15px 15px rgb(218, 218, 218);
+}
+
+.text-edit{
+    color: var(--color);
+}
+
+.bg-edit{
+    background-color: var(--bg-color);
+}

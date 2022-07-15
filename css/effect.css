@@ -1,0 +1,80 @@
+/* usune baranda ulandyar */
+.efginel{
+    transition: 0.5s;
+}
+.efginel:hover{
+    transform: scale(1.1);
+}
+
+
+/* kolege beryar */
+.efdark{
+    transition: 0.5s;
+}
+.efdark:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+/* ledni cyra yaly (text)*/
+.font-neon{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-style: italic;
+    transition: 0.5s;
+}
+.font-neon:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-style: italic;
+    text-shadow: 0 0 5px #fff,
+        0 0 5px #fff,
+        0 0 15px var(--neon),
+        0 0 15px var(--neon),
+        0 0 15px var(--neon),
+        0 0 15px var(--neon),
+        0 0 15px var(--neon),
+        0 0 40px var(--neon),
+        0 0 70px var(--neon),
+        0 0 80px var(--neon),
+        0 0 100px var(--neon),
+        0 0 120px var(--neon);
+}
+
+/* ledni cyra yaly (box) */
+.font-neonb{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-style: italic;
+    transition: 0.5s;
+}
+.font-neonb:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-style: italic;
+    text-shadow: 0 0 5px #fff,
+        0 0 5px #fff,
+        0 0 15px var(--neon),
+        0 0 15px var(--neon),
+        0 0 15px var(--neon),
+        0 0 15px var(--neon),
+        0 0 15px var(--neon),
+        0 0 40px var(--neon),
+        0 0 70px var(--neon),
+        0 0 80px var(--neon),
+        0 0 100px var(--neon),
+        0 0 120px var(--neon),
+        0 0 150px var(--neon);
+    border-radius: var(--neonr);
+    box-shadow:  0 0 5px #fff,
+    0 0 5px #fff,
+    0 0 15px var(--neon),
+    0 0 15px var(--neon),
+    0 0 15px var(--neon),
+    0 0 15px var(--neon),
+    0 0 15px var(--neon),
+    0 0 40px var(--neon),
+    inset 0 0 15px var(--neon),
+    inset 0 0 20px var(--neon),
+    inset 0 0 30px var(--neon);
+}
